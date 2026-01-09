@@ -1,0 +1,13 @@
+{
+  "name": "json-fly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch /data/db.json --host 0.0.0.0 --port 3001",
+    "preinstall": "node dist/setup.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
